@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cc39e17ce6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./photo_2022-11-12_21-35-23-removebg-preview.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>
+                    Passionate Web Developer | Creative Problem Solver | Code Enthusiast
+                </p>
+                <h1>Hiii, I'm <span>Bharat</span> raut <br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- .........................................about.................................................. -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="./user.JPG" alt=""></div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">
+                        About Me
+                    </h1>
+                    <p>
+                        Hey there! 👋 I'm Bharat Nanasaheb raut, a dedicated web developer with a passion for crafting
+                        innovative and user-centric digital experiences. My journey in the world of web development
+                        began 2 years ago, and since then, I've been on a mission to blend functionality with aesthetics
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents  active-tab" id="skills">
+                        <ul>
+                            <dl>
+                                <dt><span>FRONTEND</span></dt> <br>
+                                <dd> HTML5, CSS3, JavaScript (ES6+), React</dd> <br>
+                                <dt><span>BACKEND</span></dt> <br>
+                                <dd> Node.js, Next.js ,React js, MongoDB</dd> <br>
+                                <dt><span>FRAMEWORKS</span> </dt> <br>
+                                <dd>Tailwind Css , BootStrao , Material Ui</dd> <br>
+                                <dt><span>TOOLS</span></dt> <br>
+                                <dd> Visual Studio Code, Git, Webpack, npm/yarn</dd>
+                            </dl>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>FullStack Web Development Training <br></span>CodeKul Institute, Kothrud , Pune
+                            </li>
+                            <li><Span>Intership Training For Web Development <br> </Span>Codsoft Technologies</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+
+                        <ul>
+                            <li><span>FULLSTACK</span>WebDeveloper</li>
+                            <li><span>MASTERS</span> of Computer Science 2023-
+                                Present</li>
+                            <li> <span>BACHELOR</span> of computer science-2023</li>
+                            <li><span>HSC SCIENCE</span> ,pune university 2020</li>
+                            <li><span>SSC</span> pune university 2018</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- .............................services............................ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle" style="font-size: 35px;">
+                My Services
+            </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-bolt"></i>
+                    <h1>Web design <br> <span>What I Do</span></h1>
+                    <p>I specialize in turning ideas into interactive and responsive web applications. Whether it's
+                        bringing pixel-perfect designs to life or optimizing backend processes for seamless
+                        functionality, I thrive on tackling challenges and producing clean, efficient code
+                        <a href=""><b>Learn more</b></a>
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <h1>Web development <br>
+                        <span>Specialize</span>
+                    </h1>
+                    <p>Beyond coding, I believe in the power of good design. I strive to create not just functional websites but visually appealing and intuitive interfaces that leave a lasting impression
+                        <a href=""><b>Learn more</b></a>
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h1>Css Animation <br><span>Masters In Css</span> </h1>
+                    <p>My toolkit includes a mastery of CSS transitions, keyframes, and transforms. I love pushing the boundaries, experimenting with intricate details, and finding the perfect rhythm to make every element dance on the screen
+                        <a href=""><b>Learn more</b></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ....................portfolio................. -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./work1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Clone Module of the Soptify music App Using Html Css And Javascript.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Weather.webp" alt="">
+                    <div class="layer">
+                        <h3>Weather Forecast Website</h3>
+                        <p>🌦️ WeatherSphere: Your Personal Forecast Hub  <br>Welcome to WeatherSphere, your go-to destination for up-to-the-minute weather updates with a touch of elegance. I'm [Your Name], and I've crafted this weather forecast website to provide you with a seamless and visually appealing experience while staying informed about the weather.
+
+                        </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./work1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, consectetur.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">
+                        Contact me
+                    </h1>
+                    <p> <i class="fa-solid fa-envelope"></i> Email:rautbharat108@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>Mobile No:7887408788 </p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+
+
+
+                    </div>
+                    <a href="./bharatresumefinalready.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name">
+                        <input type="Email" name="Email" placeholder="xyz@gmail.com" required>
+                        <textarea name="Messege" id="" cols="30" rows="6" placeholder="Your Messege To Me"></textarea>
+                        <button class="btn btn2" type="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <!-- ...................copyright.............. -->
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i>Bharat .Made With Eureka Group Ltd</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById('sidemenu')
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxqvlZK7LFffLHJtiGDknQRerQiOITg4lTtgknfJmmxNh27n-3gj-Adfc4ogmxhyyMF/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Messege Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 4000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
